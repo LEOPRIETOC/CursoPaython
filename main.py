@@ -16,16 +16,21 @@ if a<4:
 elif a>5:
     print("es menor que 5")
 else:
-    print("no es menor")
-
+    print("no es menor")"""
+#condiciones multiples 
+"""
 a = 7
 while a==7:
     print("estoy en el while")
     a = int(input("ingrese el nuevo valor de a: "))
     if a !=7:
-        break """
+        break 
 
 a = 3
 b= 4
 if a ==3 and b==4:
-    print("es correcto")
+    print("es correcto")"""
+
+#ciclo for
+for i in range(0,5):
+    print(i)
